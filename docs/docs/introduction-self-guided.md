@@ -1,6 +1,6 @@
 # Setup: Self-Guided Learners
 
-These instructions are for self-guided learners who are not part of the AI Tour and do not have access to a pre-configured lab environment. Follow these steps to set up your environment and begin the workshop.
+These instructions are for self-guided learners who do not have access to a pre-configured lab environment. Follow these steps to set up your environment and begin the workshop.
 
 ## Introduction
 
@@ -20,7 +20,7 @@ Each lab in this workshop includes:
 
 ### Programming Language Choice
 
-The workshop is available for both Python and C#. Use the language selector tabs to choose your preferred language wherever applicable. Note, don't switch languages mid-lab.
+The workshop is available in both Python and C#. Use the language selector tabs to choose your preferred language wherever applicable. Note, don't switch languages mid-lab.
 
 ![The image shows the language selector](./media/language-selector.png)
 
@@ -105,7 +105,7 @@ We have provided a bash script to automate the deployment of the resources requi
 
     === "Python"
 
-        The deploy script generates the **src/workshop/python/.env** file, which contains the project connection string, model deployment name, and Bing connection name.
+        The deploy script generates the **.env** file, which contains the project connection string, model deployment name, and Bing connection name.
 
         Your **.env** file should look similar to this but with your project connection string.
 
@@ -200,7 +200,7 @@ We have provided a bash script to automate the deployment of the resources requi
             dotnet user-secrets set "Azure:ModelName" "gpt-4o" --project "$CSHARP_PROJECT_PATH"
             ```
 
-## Accessing the Workspace
+## Selecting the Language Workspace
 
 There are two workspaces in the workshop, one for Python and one for C#. The workspace contains the source code and all the files needed to complete the labs for each language. Choose the workspace that matches the language you want to work with.
 

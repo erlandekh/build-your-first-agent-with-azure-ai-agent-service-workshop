@@ -117,7 +117,7 @@ For more information, visit the [Grounding with Bing Search](https://learn.micro
 
 ### Review the Instructions
 
-1. Open the **src/workshop/instructions/bing_grounding.txt** file. This file replaces the instructions used in the previous lab.
+1. Open the **shared/instructions/bing_grounding.txt** file. This file replaces the instructions used in the previous lab.
 2. The **Tools** section now includes a “Competitive Insights for Products and Categories” capability, enabling the agent to:
 
     - Use Bing Search to gather competitor product names, company names, and prices.
@@ -148,7 +148,7 @@ The agent combines data from the Contoso sales database, the Tents Data Sheet, a
 
     !!! info
         AI Agent Service is again using Code Interpreter to create the chart, but this time with
-        real-world data sourced in the previous query. As before, look in `src/workshop/files` to view the chart.
+        real-world data sourced in the previous query. As before, look in `shared/files` to view the chart.
 
 4. **Show the tents we sell by region that are a similar price to our competitors beginner tents.**
 
